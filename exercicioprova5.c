@@ -32,7 +32,8 @@ void comparacao()
         {
             maiorValor = i;
         }
-        if (valores[i] < valores[(int)menorValor]) {
+        if (valores[i] < valores[(int)menorValor]) 
+        {
             menorValor = i;
         }
         if (valores[i] > 100) {
